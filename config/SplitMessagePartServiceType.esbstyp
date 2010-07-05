@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceType name="SplitMessagePartServiceType" factoryClass="com.progress.codeshare.esbservice.splitMessagePart.SplitMessagePartService"
+        xmlns="http://www.sonicsw.com/sonicxq">
+    <validParams>
+        <runtime>
+            <stringParam name="expression"/>
+            <stringParam name="keepOriginalPart"/>
+            <stringParam name="messagePart"/>
+            <stringParam name="namespaces"/>
+        </runtime>
+    </validParams>
+</serviceType>
